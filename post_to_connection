@@ -2,6 +2,6 @@ import boto3
 
 client = boto3.client('apigatewaymanagementapi')
 response = client.post_to_connection(
-    Data = b'bytes'|file ,
+    Data = b'Hello, I am just trying',
     connectionID='string'
 )
